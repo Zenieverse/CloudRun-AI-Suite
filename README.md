@@ -3,7 +3,18 @@ CloudRun AI Suite is an intelligent, modular platform that transforms natural-la
 
 https://poe.com/CloudRunAISuite
 
+https://gemini.google.com/share/a02acbe78965
 
+Project Summary — CloudRun AI Suite
+CloudRun AI Suite is an end-to-end framework that transforms natural language ideas into live, scalable applications on Google Cloud Run. It showcases three flagship modules — Prompt-to-API, AI Resume Analyzer, and EduBot — each generated and deployed using AI Studio (Gemini) and orchestrated via Pub/Sub and Firestore.
+The system automates the full prompt-to-production pipeline: AI Studio converts prompts into backend code (Flask, FastAPI, Dockerfiles), Cloud Build handles containerization, and Cloud Run deploys frontends, backends, and GPU services with auto-scaling. It integrates Gemini 1.5 Pro for code and text generation, Gemma 2 for summarization, and Vertex AI Embeddings for analysis.
+Key features include:
+🧩 Prompt-to-API Generator: Converts plain English into deployable REST APIs.
+🧠 AI Resume Analyzer: Extracts, summarizes, and scores resumes securely.
+📚 EduBot: Creates bite-sized learning modules and quizzes dynamically.
+⚙️ CI/CD Automation: GitHub Actions + Terraform enable one-click redeploys.
+☁️ Cloud-Native Orchestration: Multi-service Cloud Run architecture with Pub/Sub and Firestore coordination.
+Built entirely with Google Cloud technologies, CloudRun AI Suite demonstrates how to go from idea → code → deployment in minutes — powered by AI and serverless innovation.
 
 🚀 Overview
 CloudRun AI Suite demonstrates how serverless infrastructure and AI-assisted development can converge to simplify the entire application lifecycle:
